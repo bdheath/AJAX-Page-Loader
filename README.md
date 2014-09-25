@@ -2,26 +2,21 @@ AJAX-Page-Loader
 ================
 
 
-	AJAX PAGE LOADER 0.4
-	By Brad Heath - brad.heath@gmail.com
+AJAX PAGE LOADER 0.4
+By Brad Heath - brad.heath@gmail.com
 	
-	Use this tool to convert internal links to AJAX page loads. The 
-	tool also attempts to pre-load internal pages into memory so they 
-	can be displayed without waiting for a server call. 
+Use this tool to convert internal links to AJAX page loads. The tool also attempts to pre-load internal pages into memory so they can be displayed without waiting for a server call. 
 	
-	Requires jQuery, underscore.js and history.js
-	(Underscore is called internally - see below to change the URL)
+Requires jQuery, underscore.js and history.js
+(Underscore is called internally - see below to change the URL)
 	
-	WHAT'S NEW IN 0.4
+WHAT'S NEW IN 0.4
 
-	This version allows cached data to be kept in sessionStorage in supported browsers, instead of in
-	an arry. 
+This version allows cached data to be kept in sessionStorage in supported browsers, instead of inan arry. 
 	
-	WHAT'S NEW IN 0.3
+WHAT'S NEW IN 0.3
 	
-	This version is updated to prevent the entire page from being rebuilt each time a new element is added.
-	Now, the app only fetches the divMain content from the server and repopulates divMain on the page with
-	the new content. Other content remains the same. (This could pose nav problems, to be solved later.) 
+This version is updated to prevent the entire page from being rebuilt each time a new element is added. Now, the app only fetches the divMain content from the server and repopulates divMain on the page with the new content. Other content remains the same. (This could pose nav problems, to be solved later.) 
 	
 	The new version also lets you add a DATA-NOAJAX attribute to links, which will prevent them from being
 	transformed. This is useful for RSS and other content. 
