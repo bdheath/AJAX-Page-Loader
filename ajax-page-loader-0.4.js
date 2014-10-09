@@ -36,10 +36,6 @@
 			future pages (or that need to be removed in case the user comes back
 			to this page, to prevent double-binding). 
 		
-		MORE COMING SOON
-		
-		AJAXPageLoader.revert()				- Revert to non-AJAX links for this page only
-		
 	WHAT HAPPENS WHEN THIS IS FIRED?		
 	* Create an AJAXPageLoader instance if one does not already exist
 	* Load underscore (required)
@@ -79,6 +75,10 @@
 		AJAXPageLoader.transitioning = false;
 		AJAXPageLoader.debug = false;
 
+		AJAXPageLoader.init = function() {
+		
+		}
+		
 		if(typeof(sessionStorage) != 'undefined') {
 			AJAXPageLoader.useSessionStorage = true;
 		}
